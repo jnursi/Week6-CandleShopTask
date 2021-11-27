@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Zen Kurenaido', sans-serif;
+    line-height: 2;
+}
+
+.container {
+    height: 95vh;
+    
+}
+
+.intro-image {
+    background-attachment: fixed;
+    background-image: url('../img/1.jpeg');
+    background-size: cover;
+    background-position: bottom;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -5rem;
+
+
+}
+
+.intro-image__link a {
+    background-color: #502f2280;
+    border: 2px solid #502f22c4;
+    color: #d4a388;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 1s ease-in-out;
+
+}
+
+.intro-image__link a:hover {
+    transform: scale(1.2);
+}
+.intro-text {
+    background-color: #63483e;
+    color: #c0aaab;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    padding: 0 15rem;
+    clip-path: polygon(50% 6%, 100% 0, 100% 35%, 100% 70%, 100% 100%, 50% 93%, 0 100%, 0% 70%, 0% 35%, 0 0);
+    margin-bottom: -5rem;
+}
+.intro-image__text {
+    
+    color: #c0aaab;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    padding: 0 15rem;
+}
+
+
+.intro-text__textbox h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+
+}
+.btn {
+    border-bottom: 0.2rem solid #63483e;
+    color: white;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 1rem;
+    margin-top: 5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.3s;
+}
+
+.btn:hover {
+    background-color: #63483e;
+    box-shadow: 0 1rem 2rem #000;
+    transform: translateY(-5px);
+}
+.btn:active {
+    box-shadow: 0 0.5rem 1rem #000;
+    transform: translateY(5px);
+}
+
+.packaging-image {
+    background-attachment: fixed;
+    background-image: url('../img/2.jpeg');
+    background-size: cover;
+    background-position: bottom;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -5rem;
+}
+
+.packaging-text {
+    background-color: #63483e;
+    color: #c0aaab;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    padding: 0 15rem;
+    text-transform: uppercase;
+    clip-path: polygon(50% 6%, 100% 0, 100% 35%, 100% 70%, 100% 100%, 50% 93%, 0 100%, 0% 70%, 0% 35%, 0 0);
+    margin-bottom: -3rem;
+}
+.packaging_text__textbox p {
+    font-size: 1rem;
+    text-transform: lowercase;
+
+
+}
+.packaging_text__textbox h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+
+.tutorials-image {
+    background-attachment: fixed;
+    background-image: url('../img/3.jpeg');
+    background-size: cover;
+    background-position: bottom;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.tutorials-image__text {
+    color: #c0aaab;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    padding: 0 15rem;
+    text-decoration: none;
+
+}
+
+.tutorials-image__text.btn {
+    border-bottom: 0.2rem solid;
+    color: white;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 1rem;
+    margin-top: 5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.3s;
+
+}
+
+.footer {
+    color: #c0aaab;
+    font-size: 2rem;
+    height: 200px;
+    text-align: center;
+    padding: 2rem;
+    background-color: red;
+    margin-bottom: -5rem;
+    
+}
+.footer ul {
+    background-color: red;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin: 1rem;
+    
+}
+
+.footer ul li a {
+    color: #c0aaab;
+    text-decoration: none; 
+}
+
+.footer ul li:hover, .footer ul li a:hover {
+    color:#63483e;
+    transform: scale(1.2);
+}
+
+
+.copyright{
+    background-color: red;
+}
